@@ -1,0 +1,41 @@
+/* CSS declarations go here */
+
+
+#respContainer{
+  width: 90%;
+  border: 1px dotted black;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+#teacherTitle{
+  background-color: white;
+  padding: 1px;
+  width: 95%;
+  border-bottom: 1px solid white;
+}
+
+/*
+#chatHistory{
+  height: 200px;
+  overflow-y: auto;
+  margin: 5px;
+}
+*/
+
+#teacherSee{
+  width: 95%;
+  word-wrap: break-word;
+  padding: 4%;
+}
+
+#teacherSend{
+  width: 95%;
+  height: 30px;
+}
+
+#teacherClearClass{
+  width: 95%; 
+  height: 30px;
+}
+

@@ -1,0 +1,37 @@
+/* CSS declarations go here */
+
+
+#studentContainer{
+  width: 90%;
+  border: 1px dotted black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#respTitle{
+  background-color: white;
+  padding: 1px;
+  width: 95%;
+  border-bottom: 1px solid white;
+  word-wrap: break-word;
+    padding: 1%;
+}
+
+/*
+#chatHistory{
+  height: 200px;
+  overflow-y: auto;
+  margin: 5px;
+}
+*/
+
+#studentTextarea{
+  width: 95%;
+}
+
+#studentSend{
+  width: 95%;
+  height: 30px;
+}
+

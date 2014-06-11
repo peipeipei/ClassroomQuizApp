@@ -1,0 +1,32 @@
+/* CSS declarations go here */
+
+#classContainer{
+  border: 1px dotted black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#classTitle{
+  background-color: white;
+  padding: 5px;
+  width: 95%;
+  border-bottom: 1px solid white;
+  word-wrap: break-word;
+}
+
+/*
+#chatHistory{
+  height: 200px;
+  overflow-y: auto;
+  margin: 5px;
+}
+*/
+
+#classSee{
+  width: 95%;
+  padding: 3%;
+  word-wrap: break-word;
+}
+
+

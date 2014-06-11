@@ -1,0 +1,46 @@
+
+<template name="teacherView">
+  <div id='respContainer'>
+      
+      <div id = "teacherTitle">
+      <h2>TEACHER VIEW</h2>
+      </div>
+<!--
+    <div id='respTitle'>
+      Please Submit Your Response
+    </div>
+-->
+<!--
+    <div id='chatHistory'>
+      {{#each lines}}
+        <b>{{this.username}}</b>: {{this.chatContent}}<br>
+      {{/each}}
+    </div>
+-->
+    <div id="teacherSee">
+      {{#each lines}}
+        <button class='selectButton'>Select</button> 
+        <button class='deleteButton'>Delete</button>
+        <b>{{this.username}}</b>: {{this.chatContent}}<br>
+      {{/each}} 
+      
+    </div>
+      
+      <br>
+<!--
+    <button id='teacherSend'>
+      Send
+    </button>
+      
+    <br>
+    <br> 
+-->
+    
+<!--
+    <button id="teacherClearClass">
+      Clear Class View
+    </button>
+-->
+      
+  </div>
+</template>
